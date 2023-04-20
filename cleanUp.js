@@ -55,10 +55,14 @@ makeFreshPesto();
 
 
 //  EX 4:
-function average(num1, num2) 
-  {
-var sum = num1 + num2;
-    var avg = sum / 2;
-
-return avg
-  }
+/* 
+I corrected the position of the curly braces and the indentation of the code
+in the code block. I did so to better follow JavaScript syntactical conventions
+and improve readability. Code inside of a code block should be indented in
+accordance to what part of the code it belongs to. 
+*/
+function average(num1, num2) {
+	var sum = num1 + num2;
+  var avg = sum / 2;
+	return avg;
+}
