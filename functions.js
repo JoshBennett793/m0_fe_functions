@@ -43,6 +43,15 @@ console.log(greetJosh);
 // 4: Write a function named square that takes in one number, and returns the square of that number.
 // BONUS: Print a sentence that interpolates the return value of your square function.
 
+function square(num) {
+	return num * num;
+}
+
+var fiveSquared = square(5);
+var tenSquared = square(10);
+
+console.log(`The value of 5 squared is: ${fiveSquared}`);
+console.log(`The value of 10 squared is: ${tenSquared}`);
 
 // 5: Write a function named checkStock that satisfies the following interaction pattern:
 // Hint: You will only write one checkStock function that checks the quantity and then prints the corresponding statement.
