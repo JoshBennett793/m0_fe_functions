@@ -3,8 +3,17 @@
 // Call each method at least twice and store the return value in a variable. 
 // Use console.log() to see the return value in the console.
 
-// 1: Write a function named greeting that returns a string with a general greeting. 
+// 1: Write a function named greeting that returns a string with a general greeting.
+ 
+function greeting() {
+	return "Hello there!";
+}
 
+var greeting1 = greeting();
+var greeting2 = greeting();
+
+console.log(greeting1);
+console.log(greeting2);
 
 // 2: Write a function named customGreeting that returns a greeting WITH a specific name.
 
