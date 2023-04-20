@@ -8,7 +8,13 @@
 
 
 // EX 1:
-function askForName() { console.log("Hello, what is your name?") }
+/* 
+I properly formatted the askForName function from a one-line 
+function to a multi-line function for improved readability.
+*/
+function askForName() { 
+	console.log("Hello, what is your name?")
+}
 
 askForName()
 
