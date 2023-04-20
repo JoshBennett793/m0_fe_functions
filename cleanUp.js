@@ -20,10 +20,18 @@ askForName()
 
 
 // EX 2:
+/* 
+I properly formatted the indentations of the code block for this function
+for improved readbility. The code inside of the code block should be 
+indented one time to easily discern where the code block starts and which
+function that code belongs to. I moved the closing curly brace to the 
+start of the line, or just under the function keyword, to easily discern
+where the function ends.
+*/
 function addThreeNums(first, second, third) {
-var sum = first + second + third
-return sum;
-      }
+	var sum = first + second + third;
+	return sum;
+}
 
 addThreeNums(1, 2, 3);
 addThreeNums(4, 2, 7);
