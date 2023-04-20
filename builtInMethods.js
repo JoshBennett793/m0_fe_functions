@@ -81,3 +81,30 @@ console.log(movie.slice(0, 11));
 // Call a different built-in JavaScript method on each of your variables. 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 // Include comments above each method call explaining the impact and return value of that method.
+
+
+var array1 = ["This", "is", "array", "number", "one"];
+/* 
+The join() method is called on the array1 variable, which stores an array of multiple strings.
+The join() method will return a string after concatenating each element of the array together using
+the argument passed in as an argument.
+The join() method does not modify the original array.
+In this example, the join() method will concatenate each string in the array together with a space
+in between each string and return that as a string.
+The return value will be "This is array number one".
+The console.log() statement will log the return the value of the join() method after it is called on
+the array1 variable, logging "This is array number one" to the console.
+*/
+console.log(array1.join(" "));
+
+var array2 = [1, 2, 3, 4];
+/* 
+The reverse() method is called on the array2 variable, which stores an array of multiple numbers.
+The reverse() method will reverse the order of the array it is called on, and return the reference to that array. 
+The reverse() method is destructive, meaning it will change the original array.
+In this example, the reverse() method will reverse the order of the array stored in array2, returning
+[4, 3, 2, 1].
+The console.log() statement prints the return value of the reverse() method after is has performed
+the reversal on array2, logging [4, 3, 2, 1] to the console.
+*/
+console.log(array2.reverse());
