@@ -29,6 +29,16 @@ console.log(customGreeting2);
 
 // 3: Write a function named greetPerson that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
 
+function greetPerson(first, middle, last) {
+	var fullName = `${first} ${middle} ${last}`;
+	return `Hello, ${fullName}`;
+}
+
+var greetJeff = greetPerson("Jeff", "Surfer", "Spicoli");
+var greetJosh = greetPerson("Joshua", "Michael", "Bennett");
+
+console.log(greetJeff);
+console.log(greetJosh);
 
 // 4: Write a function named square that takes in one number, and returns the square of that number.
 // BONUS: Print a sentence that interpolates the return value of your square function.
